@@ -1,10 +1,10 @@
-public class Converter {
+public class converter {
 //Your names go here:
 /*
 * @Author: Name of the first student
 * Jesse Roy-Cote
 * Patrick Matchett
-*
+* Jesse Hooper
 */
 private double celsiusToFahrenheit(double C){
 	return C*(9/5)+32;
