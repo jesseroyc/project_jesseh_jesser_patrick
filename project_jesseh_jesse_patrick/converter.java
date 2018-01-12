@@ -15,10 +15,11 @@ return (F - 32) / 1.8;
 public static void main(String[] args) {
 //TODO: The first student will implement this method.
 // Call CelsiusToFahrenheit to convert 180 Celsius to Fahrenheit value.
+    double F = celsiusToFahrenheit(180);
+    System.out.println("180 C is \f F", F);
     
-    
-    // Jesse Hooper Made this change
-    
+    double C = fahrenheitToCelsius(250);
+    System.out.println("250 F is \f C", C);
 // Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
 }
 }
