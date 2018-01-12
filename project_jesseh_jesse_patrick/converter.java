@@ -21,10 +21,14 @@ public static void main(String[] args) {
 	converter OBJ= new converter();
 
     double F= OBJ.celsiusToFahrenheit(180);
-    System.out.println(F);
-    
+    System.out.println("180 C is " + F +"F");
+    // Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
     double C = OBJ.fahrenheitToCelsius(250);
-    System.out.println( C);
-// Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
+    System.out.println("250 F is " + C+ "C");
+    
+    double M = OBJ.kilometersToMile(30);
+    System.out.println("30 Km is " + M + " miles");
+    
+
 }
 }
