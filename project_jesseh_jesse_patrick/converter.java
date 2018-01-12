@@ -12,6 +12,9 @@ private double celsiusToFahrenheit(double C){
 private double fahrenheitToCelsius(double F){
 return (F - 32) / 1.8;
 }
+private double kilometersToMile(double K) {
+	return K * 0.621371;
+}
 public static void main(String[] args) {
 //TODO: The first student will implement this method.
 // Call CelsiusToFahrenheit to convert 180 Celsius to Fahrenheit value.
