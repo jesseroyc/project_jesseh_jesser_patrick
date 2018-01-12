@@ -18,10 +18,10 @@ public static void main(String[] args) {
 	converter OBJ= new converter();
 
     double F= OBJ.celsiusToFahrenheit(180);
-    System.out.println(F);
+    System.out.printf("180 Celsius is %f Fahrenheit\n", F);
     
     double C = OBJ.fahrenheitToCelsius(250);
-    System.out.println( C);
+    System.out.printf("250 Fahrenheit is %f Celsius\n", C);
 // Call FahrenheitToCelsius to convert 250 Fahrenheit to Celsius value.
 }
 }
